@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS `registration` (
+`registration_id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+`first_name` VARCHAR(45) NOT NULL,
+`last_name` VARCHAR(45) NOT NULL,
+`pw` VARCHAR(28) NOT NULL,
+`email` VARCHAR(255) NOT NULL,
+`address` VARCHAR(255) NOT NULL,
+`city` VARCHAR(45) NOT NULL,
+`country` VARCHAR(255) NOT NULL
+);
