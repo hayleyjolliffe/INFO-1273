@@ -26,52 +26,67 @@
     <!-- BODY START -->
     <body>
 
-        <!-- FIRST NAME -->
-        <label for id="firstName">First Name:</label>
-        <input id="firstName" type="text" placeholder="John">
-        <!-- FIRST NAME END -->
+        <!-- FORM TITLE -->
+        <h1>Registration:</h1>
 
-        <br><br>
+        <!-- FORM START -->
+        <form id="registration">
 
-        <!-- LAST NAME -->
-        <label for id="lastName">Last Name:</label>
-        <input id="lastName" type="text" placeholder="Appleseed">
-        <!-- LAST NAME END -->
+            <!-- FIRST NAME -->
+            <label for id="firstName">First Name:</label>
+            <input id="firstName" type="text" placeholder="John">
+            <!-- FIRST NAME END -->
 
-        <br><br>
+            <br><br>
 
-        <!-- PASSWORD -->
-        <label for id="password">Password:</label>
-        <input id="password" type="password" placeholder="********">
-        <!-- PASSWORD END -->
+            <!-- LAST NAME -->
+            <label for id="lastName">Last Name:</label>
+            <input id="lastName" type="text" placeholder="Appleseed">
+            <!-- LAST NAME END -->
 
-        <br><br>
+            <br><br>
 
-        <!-- EMAIL -->
-        <label for id="email">Email:</label>
-        <input id="email" type="email" placeholder="jappleseed@mail.com">
-        <!-- EMAIL END -->
+            <!-- PASSWORD -->
+            <label for id="password">Password:</label>
+            <input id="password" type="password" placeholder="********">
+            <!-- PASSWORD END -->
 
-        <br><br>
+            <br><br>
 
-        <!-- ADDRESS -->
-        <label for id="address">Address:</label>
-        <input id="address" type="text" placeholder="123 Main St.">
-        <!-- ADDRESS END -->
+            <!-- EMAIL -->
+            <label for id="email">Email:</label>
+            <input id="email" type="email" placeholder="jappleseed@mail.com">
+            <!-- EMAIL END -->
 
-        <br><br>
+            <br><br>
 
-        <!-- CITY -->
-        <label for id="city">City:</label>
-        <input id="city" type="text" placeholder="London">
-        <!-- CITY END -->
+            <!-- ADDRESS -->
+            <label for id="address">Address:</label>
+            <input id="address" type="text" placeholder="123 Main St.">
+            <!-- ADDRESS END -->
 
-        <br><br>
+            <br><br>
 
-        <!-- COUNTRY -->
-        <label for id="country">Country:</label>
-        <input id="country" type="text" placeholder="Canada">
-        <!-- COUNTRY END -->
+            <!-- CITY -->
+            <label for id="city">City:</label>
+            <input id="city" type="text" placeholder="London">
+            <!-- CITY END -->
+
+            <br><br>
+
+            <!-- COUNTRY -->
+            <label for id="country">Country:</label>
+            <input id="country" type="text" placeholder="Canada">
+            <!-- COUNTRY END -->
+
+            <br><br>
+
+            <!-- SUBMIT BUTTON -->
+            <input type="submit">
+            <!-- SUBMIT BUTTON END -->
+
+        </form>
+        <!-- FORM END -->
         
 
     </body>
