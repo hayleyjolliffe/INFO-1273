@@ -13,37 +13,37 @@
         <label for id="firstName">First Name:</label>
         <input id="firstName" type="text" placeholder="John">
 
-        <br>
+        <br><br>
 
         <!-- LAST NAME -->
         <label for id="lastName">Last Name:</label>
         <input id="lastName" type="text" placeholder="Appleseed">
 
-        <br>
+        <br><br>
 
         <!-- PASSWORD -->
         <label for id="password">Password:</label>
         <input id="password" type="password" placeholder="********">
 
-        <br>
+        <br><br>
 
         <!-- EMAIL -->
         <label for id="email">Email:</label>
-        <input id="email" type="email" placeholder="johnappleseed@mail.com">
+        <input id="email" type="email" placeholder="jappleseed@mail.com">
 
-        <br>
+        <br><br>
 
         <!-- ADDRESS -->
         <label for id="address">Address:</label>
         <input id="address" type="text" placeholder="123 Main St.">
 
-        <br>
+        <br><br>
 
         <!-- CITY -->
         <label for id="city">City:</label>
         <input id="city" type="text" placeholder="London">
 
-        <br>
+        <br><br>
 
         <!-- COUNTRY -->
         <label for id="country">Country:</label>
@@ -53,22 +53,3 @@
     </body>
 
 </html>
-
-
-<!--
-
-    REGISTRATION FORM:
-    registration_id = primarykey;
-    first_name = varchar45;
-    last_name = varchar45;
-    pwd = varchar28;
-    email = varchar255;
-    address = varchar255;
-    city = varchar45;
-    country = varchar255;
-
-    HTML FORM:
-    > html, head, title, body
-    > div, label, input
-
--->
