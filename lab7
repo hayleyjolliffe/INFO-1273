@@ -9,8 +9,66 @@
 
     <body>
 
+        <!-- FIRST NAME -->
+        <label for id="firstName">First Name:</label>
+        <input id="firstName" type="text" placeholder="John">
+
+        <br>
+
+        <!-- LAST NAME -->
+        <label for id="lastName">Last Name:</label>
+        <input id="lastName" type="text" placeholder="Appleseed">
+
+        <br>
+
+        <!-- PASSWORD -->
+        <label for id="password">Password:</label>
+        <input id="password" type="password" placeholder="********">
+
+        <br>
+
+        <!-- EMAIL -->
+        <label for id="email">Email:</label>
+        <input id="email" type="email" placeholder="johnappleseed@mail.com">
+
+        <br>
+
+        <!-- ADDRESS -->
+        <label for id="address">Address:</label>
+        <input id="address" type="text" placeholder="123 Main St.">
+
+        <br>
+
+        <!-- CITY -->
+        <label for id="city">City:</label>
+        <input id="city" type="text" placeholder="London">
+
+        <br>
+
+        <!-- COUNTRY -->
+        <label for id="country">Country:</label>
+        <input id="country" type="text" placeholder="Canada">
         
 
     </body>
 
 </html>
+
+
+<!--
+
+    REGISTRATION FORM:
+    registration_id = primarykey;
+    first_name = varchar45;
+    last_name = varchar45;
+    pwd = varchar28;
+    email = varchar255;
+    address = varchar255;
+    city = varchar45;
+    country = varchar255;
+
+    HTML FORM:
+    > html, head, title, body
+    > div, label, input
+
+-->
