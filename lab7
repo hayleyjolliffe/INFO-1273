@@ -1,55 +1,81 @@
+<!--
+
+
+
+    Lab 7: 'Registration Form'
+    for INFO-1273 | Databases 1
+    || form1.html
+    2021 Hayley Jolliffe
+
+
+
+-->
+
+<!-- CODE START -->
 <!DOCTYPE html>
 <html lang="en-Us">
 
+    <!-- HEAD START -->
     <head>
 
         <title>Lab 7 | INFO-1273</title>
     
     </head>
+    <!-- HEAD END -->
 
+    <!-- BODY START -->
     <body>
 
         <!-- FIRST NAME -->
         <label for id="firstName">First Name:</label>
         <input id="firstName" type="text" placeholder="John">
+        <!-- FIRST NAME END -->
 
         <br><br>
 
         <!-- LAST NAME -->
         <label for id="lastName">Last Name:</label>
         <input id="lastName" type="text" placeholder="Appleseed">
+        <!-- LAST NAME END -->
 
         <br><br>
 
         <!-- PASSWORD -->
         <label for id="password">Password:</label>
         <input id="password" type="password" placeholder="********">
+        <!-- PASSWORD END -->
 
         <br><br>
 
         <!-- EMAIL -->
         <label for id="email">Email:</label>
         <input id="email" type="email" placeholder="jappleseed@mail.com">
+        <!-- EMAIL END -->
 
         <br><br>
 
         <!-- ADDRESS -->
         <label for id="address">Address:</label>
         <input id="address" type="text" placeholder="123 Main St.">
+        <!-- ADDRESS END -->
 
         <br><br>
 
         <!-- CITY -->
         <label for id="city">City:</label>
         <input id="city" type="text" placeholder="London">
+        <!-- CITY END -->
 
         <br><br>
 
         <!-- COUNTRY -->
         <label for id="country">Country:</label>
         <input id="country" type="text" placeholder="Canada">
+        <!-- COUNTRY END -->
         
 
     </body>
+    <!-- BODY END -->
 
 </html>
+<!-- CODE END -->
