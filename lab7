@@ -33,22 +33,22 @@
         <form id="registration">
 
             <!-- FIRST NAME -->
-            <label for id="firstName">First Name:</label>
-            <input id="firstName" type="text" placeholder="John">
+            <label for id="first_name">First Name:</label>
+            <input id="first_name" type="text" placeholder="John">
             <!-- FIRST NAME END -->
 
             <br><br>
 
             <!-- LAST NAME -->
-            <label for id="lastName">Last Name:</label>
-            <input id="lastName" type="text" placeholder="Appleseed">
+            <label for id="last_name">Last Name:</label>
+            <input id="last_name" type="text" placeholder="Appleseed">
             <!-- LAST NAME END -->
 
             <br><br>
 
             <!-- PASSWORD -->
-            <label for id="password">Password:</label>
-            <input id="password" type="password" placeholder="********">
+            <label for id="pw">Password:</label>
+            <input id="pw" type="password" placeholder="********">
             <!-- PASSWORD END -->
 
             <br><br>
