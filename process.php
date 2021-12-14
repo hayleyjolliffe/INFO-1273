@@ -1,4 +1,15 @@
 <?php
+
+$databaseHost = 'localhost';//localhost
+$databaseName = 'registration';//registration
+$databaseUsername = 'root';//root by default for localhost
+$databasePassword = '';//by default empty for localhost
+
+$mysqli = mysqli_connect($databaseHost,$databaseUsername,$databasePassword,$databaseUsername);
+
+?>
+
+<?php
 if(isset($_POST['submit']))
 {
     $first_name = $_POST['first_name'];
@@ -8,27 +19,15 @@ if(isset($_POST['submit']))
     $address = $_POST['address'];
     $city = $_POST['city'];
     $country = $_POST['country'];
-    $result = mysqli_query($mysqli,"insert into user values('','$first_name','$last_name','$pw','$email','$address','$city','$country')");
+
+    $result = mysqli_query($mysqli, "insert into user values(",'$first_name','$last_name','$pw','$email','$address','$city','$country',")");
     if($result)
     {
-        echo "Registration successful";
+        echo "Registration successful.";
     }
-    else
-    {
-        echo "Registration failed";
+    else{
+        echo "Failed";
     }
 }
-?>
 
-<?php
-echo "<h2>Your Input:</h2>";
-echo $name;
-echo "<br>";
-echo $email;
-echo "<br>";
-echo $website;
-echo "<br>";
-echo $comment;
-echo "<br>";
-echo $gender;
 ?>
